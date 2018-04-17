@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+header {
+  display: flex;
+  color: rgb(244, 240, 248);
+  background-color: black;
+  justify-content: center;
+  align-content: center;
+  padding: 20px 0;
+}
+
+main {
+  display: flex;
+	justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+form h3 {
+  font-size: 24px;
+  padding-left: 100px;
+  font-weight: 900;
+}
+
+input {
+  margin: 20px 0;
+  padding: 5px 10px;
+  font-size: 24px;
+}
+
+footer {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  height: 50px;
+  background-color: black;
+  color: antiquewhite;
+}
