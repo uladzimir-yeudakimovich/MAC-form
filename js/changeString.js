@@ -1,5 +1,5 @@
 const changeLetter = require('./changeLetter');
-const addDivider = require('./addDivider')
+const addDivider = require('./addDivider');
 
 module.exports = function changeString(str) {
   str = str.toUpperCase();
@@ -8,4 +8,4 @@ module.exports = function changeString(str) {
   str = addDivider(str);
   if(str.length >= 17) {str = str.slice(0,17);}
   return str;
-}
+};

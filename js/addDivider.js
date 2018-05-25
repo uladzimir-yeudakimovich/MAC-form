@@ -5,4 +5,4 @@ module.exports = function addDivider(str) {
   if(str.length >= 12 && str[11] != ':') {str = `${str.slice(0,11)}:${str.slice(11)}`;}
   if(str.length >= 15 && str[14] != ':') {str = `${str.slice(0,14)}:${str.slice(14)}`;}
   return str;
-}
+};
