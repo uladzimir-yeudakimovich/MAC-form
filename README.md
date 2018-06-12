@@ -1,2 +1,2 @@
-# MAC-form
-# https://vladimir2430.github.io/MAC-form
+# Do you want to see my MAC-form?
+# <a href="https://uladzimir-yeudakimovich.github.io/MAC-form">Click there ;)</a>
